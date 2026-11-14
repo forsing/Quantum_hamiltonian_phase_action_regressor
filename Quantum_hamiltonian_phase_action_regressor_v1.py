@@ -15,9 +15,9 @@ np.random.seed(39)
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_2981.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_plus_1737.csv"),
+    Path("/data/loto7_4718_k90.csv"),
+    Path("/data/loto7_4718_k90_loto_2981.csv"),
+    Path("/data/loto7_4718_k90_loto_plus_1737.csv"),
 )
 
 
@@ -414,17 +414,17 @@ Posebnost: Trotter-Suzuki evolucija H(q,p)=T(p)+V(q) na simulatoru + DP dekodira
 CSV: loto7_4718_k90.csv
 Validacija NLL (tau=0.35, reg=0.01): 21.0162
 Test NLL: 20.9688
-NEXT: [1, 6, 18, 21, 23, 28, 39]
+NEXT: [1, x, 18, y, 23, z, 39]
 
 CSV: loto7_4718_k90_loto_2981.csv
 Validacija NLL (tau=0.35, reg=0.05): 21.3679
 Test NLL: 21.5938
-NEXT: [4, 7, 10, 22, 26, 33, 38]
+NEXT: [4, x, 10, y, 26, z, 38]
 
 CSV: loto7_4718_k90_loto_plus_1737.csv
 Validacija NLL (tau=0.35, reg=0.05): 21.3088
 Test NLL: 21.7915
-NEXT: [7, 8, 12, 23, 29, 32, 37]
+NEXT: [7, x, 12, y, 29, z, 37]
 """
 
 
